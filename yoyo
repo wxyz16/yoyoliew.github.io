@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yoyo Liew - CV</title>
+  <style>
+    body { font-family: 'Roboto', sans-serif; background: #fafafa; color: #333; line-height: 1.6; padding: 20px; }
+    .wrapper { max-width: 1050px; margin: 0 auto; padding: 20px 40px; background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .profile { display: flex; align-items: center; gap: 20px; margin-bottom: 30px; }
+    .profile img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 2px solid #ccc; }
+    h2 { font-size: 28px; margin: 0; }
+    .container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 20px; }
+    .left-col, .right-col { display: flex; flex-direction: column; gap: 30px; }
+    .section-title { font-weight: 600; font-size: 20px; margin-bottom: 10px; border-left: 4px solid #444; padding-left: 10px; }
+    ul { margin: 0; padding-left: 20px; }
+    .skills-list span { display: inline-block; padding: 8px 14px; margin: 5px; border-radius: 20px; background: #f2f2f2; font-size: 14px; }
+    .experience { margin-top: 40px; }
+    .experience p { margin-bottom: 18px; }
+
+    /* WhatsApp Floating Button */
+    .whatsapp-float {
+      position: fixed;
+      width: 58px;
+      height: 58px;
+      bottom: 25px;
+      right: 25px;
+      background: #25D366;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+      z-index: 999;
+      transition: transform 0.2s ease;
+    }
+    .whatsapp-float:hover { transform: scale(1.1); }
+
+    .wa-tooltip {
+      position: fixed;
+      bottom: 90px;
+      right: 35px;
+      background: #444;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+    .whatsapp-float:hover + .wa-tooltip { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="profile">
+    <img src="yoyo-profile.jpg.png" alt="Profile Photo" />
+    <div>
+      <h2>YOYO LIEW</h2>
+      <p>Email: xiao.u.95@hotmail.com<br>Phone: +60168309883<br>Kuala Lumpur, Malaysia</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="left-col">
+      <div>
+        <div class="section-title">About Me</div>
+        <p>Business analyst with experience in financial technology, client onboarding processes, and digital product development. Skilled in translating business needs into clear technical requirements and supporting end-to-end delivery.</p>
+      </div>
+
+      <div>
+        <div class="section-title">Education</div>
+        <p><strong>Taylor's University</strong><br>Bachelor of Arts (Hons) — Accounting & Finance (2014 – 2016)<br>CGPA 3.63 / 4.00</p>
+        <p><strong>Yu Yuan Secondary School</strong><br>SPM 4As, 5Bs • UEC 4As, 6Bs (2008 – 2013)</p>
+      </div>
+
+      <div>
+        <div class="section-title">Extra-Curricular Activities</div>
+        <ul>
+          <li>President — Yu Yuan Chinese Society (2013)</li>
+          <li>Conductor — Yu Yuan Chinese Orchestra (2013)</li>
+          <li>Entertainment & Program — Yu Yuan Leadership Camp (2013)</li>
+          <li>School Team Manager — Sabah Teenagers Chinese Orchestra Camp (2012)</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="section-title">Scholarship</div>
+        <ul>
+          <li>Taylor's University Chinese Independent High School Scholarship</li>
+          <li>Nominee — Taylor's University Scholar of The Year Award (2015)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right-col">
+      <div>
+        <div class="section-title">Skills</div>
+        <div class="skills-list">
+          <span>Excel</span><span>PowerPoint</span><span>Word</span><span>Figma</span><span>WordPress (Elementor)</span><span>BRD Drafting</span>
+          <span>Communication</span><span>Stakeholder Management</span>
+          <span>Project Coordination</span><span>Financial Product Knowledge</span><span>Requirement Gathering</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-title">Languages</div>
+        <ul>
+          <li>Mandarin — Native</li>
+          <li>English — Fluent</li>
+          <li>Hakka — Fluent</li>
+          <li>Malay — Intermediate</li>
+          <li>Cantonese — Intermediate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-title">Professional Experience</div>
+  <div class="experience">
+    <p><strong>RoboWealth (M) Sdn. Bhd.</strong><br>Business Analyst (May 2023 – Present)<br>- Translate business requirements into system features<br>- Support delivery with tech & product teams</p>
+    <p>Management Associate (Dec 2022 – Apr 2023)<br>- Assisted growth team in marketing initiatives<br>- Supported social media engagement</p>
+    <p><strong>RHB Bank Berhad</strong><br>Private Client Service Manager (Jul 2021 – Nov 2022)<br>- Managed premier client servicing<br>- IPPC holder</p>
+    <p><strong>OCBC Bank (M) Sdn Bhd</strong><br>Personal Financial Consultant (Oct 2020 – Jun 2021)<br>- Provided financial advisory services<br>- Bancassurance & Unit Trust sales (FIMM holder)</p>
+    <p><strong>Sculpture at Work (M) Sdn. Bhd.</strong><br>Event Executive (Nov 2018 – Jul 2020)<br>- Led Chinese New Year cultural event execution</p>
+    <p><strong>MDS Pte. Ltd.</strong><br>Store In-Charge (Internship) (2016)<br>- Supported outlet operations and merchandising</p>
+  </div>
+</div>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/60168309883" target="_blank" class="whatsapp-float">
+  ☎
+</a>
+<div class="wa-tooltip">WhatsApp Me</div>
+
+</body>
+</html>
